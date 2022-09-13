@@ -12,6 +12,9 @@ import About from './Pages/About';
 import Projects from './Pages/Projects';
 
 function App() {
+
+  const URL = "https://portfolio-website-full-stack.herokuapp.com/";
+
   return (
     <div className="App">
       <Header />

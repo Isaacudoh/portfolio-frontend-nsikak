@@ -1,6 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 
+// Import conponents
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import {Route, Switch} from "react-router-dom";
+
+// Import Pages
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Projects from './Pages/Projects';
+
 function App() {
   return (
     <div className="App">

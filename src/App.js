@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 // Import conponents
@@ -22,7 +21,6 @@ function App() {
         <Route exact path="/" element={<Home />}/>
         <Route exact path="/projects" element={<Projects URL={URL} />}/>
         <Route exact path="/about" element={<About URL={URL} />}/>
-
       </Routes>
     </div>
   );
